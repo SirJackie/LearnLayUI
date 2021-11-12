@@ -492,7 +492,14 @@ layui-icon-ok-circle
 &#xe608;
 layui-icon-add-circle-fine
 
+layui.use("element", function(){
+    var element = layui.element;
+});
 
-layui-nav  一级主菜单（ul）
-layui-nav-item  一级主菜单item（li，在里面用a标签有惊喜）
-layui-this
+layui-this          选中
+
+layui-nav           一级主菜单（ul）
+layui-nav-item      一级主菜单item（li，在里面用a标签有惊喜）
+
+layui-nav-child     二级主菜单（dl）
+---------------     二级item（dd，在里面用a标签有惊喜）

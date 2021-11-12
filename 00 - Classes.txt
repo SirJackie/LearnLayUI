@@ -491,3 +491,8 @@ layui-icon-ok-circle
 添加-圆圈-细体
 &#xe608;
 layui-icon-add-circle-fine
+
+
+layui-nav  一级主菜单（ul）
+layui-nav-item  一级主菜单item（li，在里面用a标签有惊喜）
+layui-this

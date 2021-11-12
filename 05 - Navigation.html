@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./layui/css/layui.css">
+    <script src="./layui/layui.js"></script>
+</head>
+<body>
+    <ul class="layui-nav">
+        <li class="layui-nav-item"><a>最新活动</a></li>
+        <li class="layui-nav-item layui-this"><a>产品</a></li>
+        <li class="layui-nav-item"><a>大数据</a></li>
+        <li class="layui-nav-item">
+            <a>解决方案</a>
+            <dl class="layui-nav-child">
+                <dd>1</dd>
+                <dd>2</dd>
+                <dd>3</dd>
+            </dl>
+        </li>
+    </ul>
+
+    <script>
+        layui.use("element", function(){
+            var element = layui.element;
+        });
+    </script>
+</body>
+</html>

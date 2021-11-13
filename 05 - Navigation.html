@@ -9,7 +9,7 @@
     <script src="./layui/layui.js"></script>
 </head>
 <body>
-    <ul class="layui-nav">
+    <!-- <ul class="layui-nav">
         <li class="layui-nav-item"><a>最新活动</a></li>
         <li class="layui-nav-item layui-this"><a>产品</a></li>
         <li class="layui-nav-item"><a>大数据</a></li>
@@ -21,7 +21,46 @@
                 <dd><a href="">3</a></dd>
             </dl>
         </li>
+    </ul> -->
+
+    <!-- <ul class="layui-nav layui-nav-tree layui-nav-side">
+        <li class="layui-nav-item"><a>最新活动</a></li>
+        <li class="layui-nav-item layui-this">
+            <a>产品<span class="layui-badge">aaa</span></a>
+            
+        </li>
+        <li class="layui-nav-item"><a>大数据</a></li>
+        <li class="layui-nav-item">
+            <a>解决方案</a>
+            <dl class="layui-nav-child">
+                <dd><a href="">1</a></dd>
+                <dd><a href="">2</a></dd>
+                <dd><a href="">3</a></dd>
+            </dl>
+        </li>
+    </ul> -->
+
+    <ul class="layui-nav">
+        <li class="layui-nav-item"><a>最新活动</a></li>
+        <li class="layui-nav-item layui-this">
+            <a>产品</a>
+        </li>
+        <li class="layui-nav-item"><a>大数据</a></li>
+        <li class="layui-nav-item">
+            <a>解决方案</a>
+            <dl class="layui-nav-child">
+                <dd><a href="">1</a></dd>
+                <dd><a href="">2</a></dd>
+                <dd><a href="">3</a></dd>
+            </dl>
+        </li>
     </ul>
+
+    <span class="layui-breadcrumb" lay-separator="-">
+        <a class="layui-nav-item">最新活动</a>
+        <a class="layui-nav-item"><cite>产品</cite></a>
+        <a class="layui-nav-item">大数据</a>
+    </span>
 
     <script>
         layui.use("element", function(){

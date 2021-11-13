@@ -503,3 +503,22 @@ layui-nav-item      一级主菜单item（li，在里面用a标签有惊喜）
 
 layui-nav-child     二级主菜单（dl）
 ---------------     二级item（dd，在里面用a标签有惊喜）
+
+layui-nav-tree      垂直导航
+layui-nav-side      侧边导航(和layui-nav-tree一起使用）
+
+layui-bg-black
+layui-bg-blue
+layui-bg-cyan
+layui-bg-gray
+layui-bg-green
+layui-bg-orange
+layui-bg-red
+
+layui-badge-dot
+layui-badge
+layui-badge-rim
+
+layui-breadcrumb    面包屑导航（span）
+----------------    面包屑导航item（a，在里面用cite有惊喜）
+lay-separator="-"   面包屑导航自定义分隔符
